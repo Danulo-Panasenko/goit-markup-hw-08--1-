@@ -1,0 +1,30 @@
+.section-priority {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-priority__precedeny {
+  display: flex;
+}
+.section-priority__menu:not(:last-child) {
+  margin-right: 30px;
+}
+.section-priority__tittle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+  margin-bottom: 10px;
+}
+.section-priority__description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
+  width: 270px;
+}
